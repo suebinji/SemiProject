@@ -1,0 +1,26 @@
+*{
+  margin: 0 auto;
+}
+input{
+  padding: 5px;
+}
+body{
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.member__container{
+  display: flex;
+  align-items: center;
+}
+.member__box1{
+  margin: 10px 5px 5px 30px;
+}
+
+.member__box3>input{
+  padding: 80px;
+}
+.member__box3__submit_btn{
+  width: 100%;
+  width: 180px;
+  font-family: 'Gowun Dodum', sans-serif;
+}

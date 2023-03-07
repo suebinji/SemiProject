@@ -1,0 +1,62 @@
+/* 폰트 */
+body{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 18px;
+}
+
+* { 
+  margin: 0 auto; 
+  padding: 0; 
+  list-style: none; 
+  text-decoration: none;
+  color: black;
+}
+/* inherit: 부모로부터 상속받는다는 의미 -> 애초에 a태그 자체가 파란색이라
+검정으로 만들어주기 위함임*/ 
+a{color: inherit;}
+a:hover {color: inherit;}
+
+/* body{width: 1250px;} */
+
+/* 이미지 슬라이드 */
+#imgslide{
+  /* float속성 풀어주기 */
+  clear: both;
+  /* 그림의 높이와 같은값 */
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+#imgslide>div{
+  position: absolute;
+  display: flex;
+}
+.body__box1{
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.body2__container{
+  display: flex;
+  /* justify-content: center; */
+}
+
+.body__box2{
+  margin-left: 100px;
+}
+.body2__container{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.body2__box2{
+  width: 480px;
+  height: 150px;
+}
+.body2__container{
+  margin-bottom: 50px;
+}
+.body2__box3{
+  margin-top: 80px;
+  margin-left: 70px;
+}

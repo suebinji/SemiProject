@@ -1,0 +1,92 @@
+/* 전체 */
+* { 
+  /* margin: 0 auto;  */
+  padding: 0; 
+  list-style: none; 
+  text-decoration: none;
+  color: black;
+}
+/* inherit: 부모로부터 상속받는다는 의미 -> 애초에 a태그 자체가 파란색이라
+검정으로 만들어주기 위함임*/ 
+a{color: inherit;}
+a:hover {color: inherit;}
+
+
+/* 폰트 */
+body{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+/* 로고 */
+.logo{ margin-right: 20px; }
+#logo{width: 150px; margin-top: 20px; border-radius: 50px;}
+
+/* 헤더부분 */
+header{
+  margin: 0 auto;
+  width: 1250px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+
+  /* width: 1250px; */
+}
+
+/* header {
+  display: flex;
+  align-items: center;
+} */
+
+.header__twoboxcon{
+	display: flex;
+  	align-items: center;
+}
+.header__first {
+  display: flex;
+}
+
+.header__second .navbar__login{
+  display: flex;
+  line-height: 110px;
+}
+.navbar__login li:nth-child(2) {
+  margin: 0 30px;
+}
+
+.header__second {
+  display: flex;
+  justify-content: right;
+  /* width: 250px; */
+}
+
+header>nav {float: right; margin-top: 20px;}
+
+.nav {width: 600px; height: 20px;}
+.nav>li {
+  float: left; 
+  width: 120px; 
+  text-align: center; 
+  padding: 10px 0;
+  position: relative;
+}
+
+.submenu { 
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+  display: none;
+  z-index: 1;
+}
+/* z-index는 큰값이 더 작은값을 덮음 */
+.submenu>li { 
+  padding: 5px 0;
+  z-index:2;
+}
+.second>li{
+  width: 120px;
+}
+.header__third{
+	text-align:right;
+}

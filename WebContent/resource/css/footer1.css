@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* 전체세팅 */
+* { 
+    margin: 0 auto;
+    /* width:1250px; */
+    padding: 0; 
+    list-style: none; 
+    text-decoration: none;
+    color: black;
+    /* box-sizing: border-box; */
+}
+a{color: inherit;}
+a:hover {color: inherit;}
+
+/* footer */
+footer{
+    border-top: 1px solid #ddd;
+}
+footer .foot_area{
+    position: relative; padding-bottom: 40px;
+}
+footer .foot_area .foot_list{
+    padding-top: 25px;
+}
+footer .foot_area .foot_list li{
+    float: left;
+}
+footer .foot_area .foot_list li:first-child:after{
+    content: "|"; display: inline-block;
+    padding: 0 10px;
+    font-size: 10px;
+    color: #000;
+    position: relative; top: -2px;
+}
+footer .foot_area .foot_list li a{
+    font-weight: bold; font-size: 15px;
+}
+footer .foot_area h2{
+    padding-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+footer .foot_area .addr{
+    padding-top: 5px; line-height: 1.4;
+    font-size: 13px; 
+    color: #666;
+}
+footer .foot_area .addr .space0{
+    letter-spacing: 0;
+}
+footer .foot_area .copy{
+    padding-top: 3px; font-size: 13px;
+    color: #666; letter-spacing: 0;
+}
+footer .foot_area .snslink{
+    position: absolute; right: 20px; top: 50px;
+}
+footer .foot_area .snslink li{
+    float: left; margin-left: 60px;
+}
+footer .foot_area .snslink li a{
+    display: block;
+    width: 50px; height: 50px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-image: no-repeat;
+    background-size: 400px;
+    background-position: -51px -60px;
+    /* background-color: hotpink; */
+}
+footer .foot_area .snslink li + li a{
+    background-position: -51px -110px;
+}
+footer .foot_area .snslink li + li +li a{
+    background-position: -101px -60px;
+}
+
+.box_inner{
+    display: flex;
+    align-items: center;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__first{
+    margin-right: 50px;
+}
+.footer__second>a{
+    font-size: 70px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}

@@ -1,0 +1,25 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+#box{
+    width: 800px;
+    height: 800px;
+    margin: 30px auto;
+    margin-top: 20px;
+    
+}
+
+h1{
+    text-align: center;
+}
+#submitAndReset{
+   text-align: center;
+}
+.submit{
+    padding: 8px;
+    width: 500px;
+}
+input{
+	padding: 8px;
+}
